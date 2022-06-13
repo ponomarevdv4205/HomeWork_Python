@@ -10,50 +10,35 @@ document.write("Вывод чисел от a до 15 с помощью опер�
 
 switch(a){
     case 0:
-        document.write("0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("0<br>");
     case 1:
-        document.write("1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("1<br>");
     case 2:
-        document.write("2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("2<br>");
     case 3:
-        document.write("3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("3<br>");
     case 4:
-        document.write("4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("4<br>");
     case 5:
-        document.write("5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("5<br>");
     case 6:
-        document.write("6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("6<br>");
     case 7:
-        document.write("7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("7<br>");
     case 8:
-        document.write("8<br>9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("8<br>");
     case 9:
-        document.write("9<br>10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("9<br>");
     case 10:
-        document.write("10<br>11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("10<br>");
     case 11:
-        document.write("11<br>12<br>13<br>14<br>15");
-        break;
+        document.write("11<br>");
     case 12:
-        document.write("12<br>13<br>14<br>15");
-        break;
+        document.write("12<br>");
     case 13:
-        document.write("13<br>14<br>15");
-        break;
+        document.write("13<br>");
     case 14:
-        document.write("14<br>15");
-        break;
+        document.write("14<br>");
     default:
         document.write("15");
 }
