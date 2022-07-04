@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя корзина</title>
+    <script src="script_basket.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top2">
+        <div class="container top__box">
+            <div class="top__info2">
+                <h1 class="zag__level__1">Моя корзина</h1>
+                <p class="text paragraph__top">
+                    Здесь вы может просматривать и редактировать состав корзины.<br>
+                    Чтобы добавить дополнительный товар нажмите кнопку "Добавить "+1"".<br>
+                    Чтобы удалить один товар нажмите кнопку "Удалить "-1"".<br>
+                    Чтобы полностью удалить товар из корзины нажмите кнопку "Удалить из корзины".<br>
+                    <br>
+                    Чтобы вернуться на главную страницу каталога нажмите<br>"Перейти в каталог".<br>
+                    Чтобы полностью очистить всю корзину нажмите кнопку "Очистить корзину".
+                    <br>
+                    <br>
+                </p>
+                <div id="basket_total" class="h44"></div>
+                <a id="top_button_catalog" href="index.html" class="top_button">Перейти в каталог</a>
+                <a id="top_button_" href="#" class="top_button_">Очистить корзину</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="what-we-do container">
+        <div class="project container">
+            <div id="basket_list0"></div>
+            <div id="close">
+                <div id="order" data-display="true">
+                    <div id="basket_list" class="elements"></div>
+                </div>
+                <div id="address" data-display="false" style="display: none">
+                    <p class="text1">Адрес доставки:</p>
+                    <input class="text_1" type="text">
+                </div>
+                <div id="comments" data-display="false" style="display: none">
+                    <p class="text1">Комментарий к Заказу:</p>
+                <textarea class="text_1"></textarea>
+                </div>
+        </div>
+        <button id="next" class="top_button4">Оформить далее заказ</button>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_center__bottom container">
+                <div class="footer_bottom_item">
+                    <p>Все права защищены &copy; Дмитрий Пономарев, 2022г.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
